@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 puts "Please input a maximum integer for FizzBuzz test"
-n = gets.chomp.to_i rescue false
+n = gets.chomp.to_i
 puts "========================="
 def fizz_buzz(n)
     for i in 0..n

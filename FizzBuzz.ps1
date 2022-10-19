@@ -5,7 +5,7 @@
 
 $in = Read-Host "Enter maximum FizzBuzz value"
 
-for($i=1; $i -le $in; $i++){
+for($i=0; $i -le $in; $i++){
 	if (($i % 5 -eq 0) -and ($i % 3 -eq 0)){ 
 		Write-host "FizzBuzz"
 	}
